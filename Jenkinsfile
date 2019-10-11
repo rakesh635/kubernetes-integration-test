@@ -1,7 +1,7 @@
 podTemplate(
   name: 'app-users-it',
   label: 'app-users-it',
-  cloud: 'openshift',
+  cloud: 'kubernetes',
   containers: [
     //Java agent, test executor
     containerTemplate(name: 'jnlp',
